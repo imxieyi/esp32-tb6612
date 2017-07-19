@@ -15,4 +15,4 @@
 ## Demo
 On 25GA20E260 motor working under 12V, the speed is about in direct proportion to pwm duty cycle:
 
-![](25GA20E260.svg)
+![](https://cdn.rawgit.com/imxieyi/esp32-tb6612/master/25GA20E260.svg)
