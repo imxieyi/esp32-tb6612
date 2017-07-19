@@ -15,7 +15,7 @@ MOTOR::MOTOR(gpio_num_t a1, gpio_num_t a2, gpio_num_t pwm,
     gpio_set_level(a2, 1);
     mcpwm_gpio_init(unit, iosig, pwm);
     mcpwm_config_t config;
-    config.frequency = 100000;
+    config.frequency = 10000;
     config.cmpr_a = 0;
     config.cmpr_b = 0;
     config.counter_mode = MCPWM_UP_COUNTER;
